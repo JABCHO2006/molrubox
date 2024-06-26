@@ -109,6 +109,11 @@
  MRBX_news_events.22.a:0 "수도는 자고로 최고의 요새다"
  MRBX_news_events.22.b:0 "수도는 자고로 최고의 요새다"  
 
+ MRBX_news_events.23.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.23.desc:0 "[FROM.GetName], 아무 자원중 하나 고갈"
+ MRBX_news_events.23.a:0 "이래서 절약이 중요하다니까"
+ MRBX_news_events.23.b:0 "이래서 절약이 중요하다니까"  
+
  MRBX_traitor: "반역자"
 
  MRBX_KAYA: "시라누이 카야"

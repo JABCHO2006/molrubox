@@ -446,5 +446,58 @@ MRBX_random_box_open = {
 			}
 			news_event = MRBX_news_events.22
 		}	
+		5 = { #자원 제거 #SKSKIe
+			random_list = {
+				5 = {
+					every_owned_state = {
+						add_resource = {
+							type = oil
+							amount = -1000
+						}
+					}
+				}
+				5 = {
+					every_owned_state = {
+						add_resource = {
+							type = steel
+							amount = -1000
+						}
+					}
+				}
+				5 = {
+					every_owned_state = {
+						add_resource = {
+							type = aluminium
+							amount = -1000
+						}
+					}
+				}
+				5 = {
+					every_owned_state = {
+						add_resource = {
+							type = chromium
+							amount = -1000
+						}
+					}
+				}
+				5 = {
+					every_owned_state = {
+						add_resource = {
+							type = tungsten
+							amount = -1000
+						}
+					}
+				}
+				5 = {
+					every_owned_state = {
+						add_resource = {
+							type = rubber
+							amount = -1000
+						}
+					}
+				}
+			}
+			news_event = MRBX_news_events.23
+		}	
 	}
 }
