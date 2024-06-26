@@ -4,13 +4,13 @@
 # Political advisors
 every_possible_country = {
 	limit = {
-		has_country_flag = RBFM_ye_wanyong
+		has_country_flag = MRBX_ye_wanyong
 	}
 	generate_character = {
 		token_base = generic_traitor # token will be TAG_token_base
 		advisor = {
 			slot = political_advisor
-			traits = { traitor }
+			traits = { MRBX_traitor }
 			ai_will_do = {
 				factor = 0
 			}

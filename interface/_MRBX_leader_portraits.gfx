@@ -133,32 +133,32 @@ spriteTypes = {
 	
 
 	spriteType = {
-		name = "GFX_idea_RBFM_fuel_pumping"
+		name = "GFX_idea_MRBX_fuel_pumping"
 		texturefile = "gfx/ideas/ABY_start_ideas.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_RBFM_industry_pumping"
+		name = "GFX_idea_MRBX_industry_pumping"
 		texturefile = "gfx/ideas/idea_GEH_hot_spring_department_4.tga"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_RBFM_unit_pumping"
+		name = "GFX_idea_MRBX_unit_pumping"
 		texturefile = "gfx/ideas/idea_light_sword_spuernova_idea.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_RBFM_equipment_pumping"
+		name = "GFX_idea_MRBX_equipment_pumping"
 		texturefile = "gfx/ideas/idea_MIL_infantry_equipment_organization.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_RBFM_research_pumping"
+		name = "GFX_idea_MRBX_research_pumping"
 		texturefile = "gfx/ideas/idea_MIL_satellite_dynamic_modifier.tga"
 	}
 
 	spriteType = {
-		name = "GFX_idea_RBFM_unindustry_pumping"
+		name = "GFX_idea_MRBX_unindustry_pumping"
 		texturefile = "gfx/ideas/zotdam.tga"
 	}
 

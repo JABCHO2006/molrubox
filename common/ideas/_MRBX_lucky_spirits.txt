@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		RBFM_industry_pumping = {
+		MRBX_industry_pumping = {
 			picture = idea_GEH_hot_spring_department_4
 
 			modifier = {
@@ -8,7 +8,7 @@ ideas = {
 			}
 		}
 
-		RBFM_fuel_pumping = {
+		MRBX_fuel_pumping = {
 			picture = ABY_start_ideas
 
 			modifier = {
@@ -19,7 +19,7 @@ ideas = {
 			}
 		}
 
-		RBFM_research_pumping = {
+		MRBX_research_pumping = {
 			picture = idea_MIL_satellite_dynamic_modifier
 
 			modifier = {
@@ -27,7 +27,7 @@ ideas = {
 			}
 		}
 
-		RBFM_unit_pumping = {
+		MRBX_unit_pumping = {
 			picture = idea_light_sword_spuernova_idea
 
 			modifier = {
@@ -36,7 +36,7 @@ ideas = {
 			}
 		}
 
-		RBFM_equipment_pumping = {
+		MRBX_equipment_pumping = {
 			picture = idea_MIL_infantry_equipment_organization
 
 			modifier = {
@@ -45,7 +45,7 @@ ideas = {
 			}
 		}
 
-		RBFM_unindustry_pumping = {
+		MRBX_unindustry_pumping = {
 			picture = zotdam
 
 			modifier = {

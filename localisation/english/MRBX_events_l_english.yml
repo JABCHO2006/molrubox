@@ -1,0 +1,97 @@
+﻿l_english:
+ MRBX_news_events.1.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.1.desc:0 "[FROM.GetName], 안정도와 전쟁지지도"
+ MRBX_news_events.1.a:0 "아무튼 이것저것 보장해라!"
+ MRBX_news_events.1.b:0 "아무튼 이것저것 보장해라!"
+
+ MRBX_news_events.2.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.2.desc:0 "[FROM.GetName], 센세를 노리는 와카모"
+ MRBX_news_events.2.a:0 "혼인신고서에 싸인을하다. "
+ MRBX_news_events.2.b:0 "혼인신고서에 싸인을하다."
+
+ MRBX_news_events.3.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.3.desc:0 "[FROM.GetName], 대용하"
+ MRBX_news_events.3.a:0 "블루아카이브는 안전합니다."
+ MRBX_news_events.3.b:0 "블루아카이브는 안전합니다."
+
+ MRBX_news_events.4.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.4.desc:0 "[FROM.GetName], 또 실장 못한 세이아"
+ MRBX_news_events.4.a:0 ".-- .... -.-- !!"
+ MRBX_news_events.4.b:0 ".-- .... -.-- !!"
+
+ MRBX_news_events.5.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.5.desc:0 "[FROM.GetName], 파랑봉투를 가져온 아로나"
+ MRBX_news_events.5.a:0 "또 올블루야???"
+ MRBX_news_events.5.b:0 "또 올블루야???"
+
+ MRBX_news_events.6.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.6.desc:0 "[FROM.GetName], 찌그러진채 발견된 호시노"
+ MRBX_news_events.6.a:0 "우고이떼 나이노니 아쯔이요~!"
+ MRBX_news_events.6.b:0 "우고이떼 나이노니 아쯔이요~!"
+
+ MRBX_news_events.7.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.7.desc:0 "[FROM.GetName], 도박선에서 발견된 코유키"
+ MRBX_news_events.7.a:0 "니하하하!"
+ MRBX_news_events.7.b:0 "니하하하!"
+
+ MRBX_news_events.8.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.8.desc:0 "[FROM.GetName], 와카모가 가져온 호버크래프트(?)"
+ MRBX_news_events.8.a:0 "이걸 여기까지 끌고왔어??"
+ MRBX_news_events.8.b:0 "이걸 여기까지 끌고왔어??"
+
+ MRBX_news_events.9.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.9.desc:0 "[FROM.GetName], 최신형 크루세이더 전차"
+ MRBX_news_events.9.a:0 "히후미의 개쩌는 전차 드리프트."
+ MRBX_news_events.9.b:0 "히후미의 개쩌는 전차 드리프트."
+
+ MRBX_news_events.10.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.10.desc:0 "[FROM.GetName], 경험치"
+ MRBX_news_events.10.a:0 "코하루의 능지가 +1 올랐다."
+ MRBX_news_events.10.b:0 "코하루의 능지가 +1 올랐다."
+
+ MRBX_news_events.11.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.11.desc:0 "[FROM.GetName], 자원"
+ MRBX_news_events.11.a:0 "덤밸을 40개 정도 샀어요!"
+ MRBX_news_events.11.b:0 "덤밸을 40개 정도 샀어요!"
+
+ MRBX_news_events.12.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.12.desc:0 "[FROM.GetName], 산업 버프"
+ MRBX_news_events.12.a:0 "언제부터 온건지 온천을 파고있다."
+ MRBX_news_events.12.b:0 "언제부터 온건지 온천을 파고있다."
+
+ MRBX_news_events.13.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.13.desc:0 "[FROM.GetName], 연료 버프"
+ MRBX_news_events.13.a:0 "석?유 털?자"
+ MRBX_news_events.13.b:0 "석?유 털?자"
+
+ MRBX_news_events.14.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.14.desc:0 "[FROM.GetName], 연구 버프"
+ MRBX_news_events.14.a:0 "초전재병약 뭐시기가 도움을 주었다."
+ MRBX_news_events.14.b:0 "초전재병약 뭐시기가 도움을 주었다."
+
+ MRBX_news_events.15.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.15.desc:0 "[FROM.GetName], 유닛 버프"
+ MRBX_news_events.15.a:0 "레벨업!"
+ MRBX_news_events.15.b:0 "레벨업!"
+
+ MRBX_news_events.16.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.16.desc:0 "[FROM.GetName], 장비 생산 버프"
+ MRBX_news_events.16.a:0 "산와머니에서 장비를 빌렸다."
+ MRBX_news_events.16.b:0 "산와머니에서 장비를 빌렸다."
+
+ MRBX_news_events.17.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.17.desc:0 "[FROM.GetName], 지도자 얼굴 세이아"
+ MRBX_news_events.17.a:0 "온세상이 세이아다."
+ MRBX_news_events.17.b:0 "온세상이 세이아다."
+
+ MRBX_news_events.18.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.18.desc:0 "[FROM.GetName], 공사다망"
+ MRBX_news_events.18.a:0 "공사가 다 망했어! ㅠㅠ"
+ MRBX_news_events.18.b:0 "공사가 다 망했어! ㅠㅠ"  
+
+ MRBX_news_events.19.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.19.desc:0 "[FROM.GetName], 수도에 투하된 핵무기"
+ MRBX_news_events.19.a:0 "수도가 좀 밝아진거 같은걸"
+ MRBX_news_events.19.b:0 "수도가 좀 밝아진거 같은걸"  
+
+ MRBX_traitor: "반역자"

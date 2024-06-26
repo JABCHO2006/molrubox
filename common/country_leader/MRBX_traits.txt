@@ -1,5 +1,5 @@
 leader_traits = {
-	traitor = {
+	MRBX_traitor = {
 		random = no
 		political_power_factor = -0.3
 

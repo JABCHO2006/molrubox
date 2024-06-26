@@ -5,7 +5,7 @@ on_actions = {
 				limit = {
 					is_ai = no
 				}
-				set_country_flag = RBFM_lucky_country
+				set_country_flag = MRBX_lucky_country
 			}
 		}
 	}
@@ -13,14 +13,14 @@ on_actions = {
 		effect = {
 			if = {
 				limit = {
-					has_country_flag = RBFM_lucky_country
+					has_country_flag = MRBX_lucky_country
 				}
 
 				random_list = {
 					5 = { #이거 꽝이지?
 						add_stability = 0.05
 						add_war_support = 0.05
-						news_event = RBFM_news_events.1
+						news_event = MRBX_news_events.1
 					}
 					10 = { #장군 추가 너무 많아서 확률 축소
 						random_list = {
@@ -37,7 +37,7 @@ on_actions = {
 									planning_skill = 9
 									logistics_skill = 9
 								}
-								news_event = RBFM_news_events.2
+								news_event = MRBX_news_events.2
 							}
 							5 = {
 								create_navy_leader = {
@@ -52,7 +52,7 @@ on_actions = {
 									maneuvering_skill = 9
 									coordination_skill = 9
 								}
-								news_event = RBFM_news_events.3
+								news_event = MRBX_news_events.3
 							}
 							5 = {
 								create_corps_commander = {
@@ -67,7 +67,7 @@ on_actions = {
 									planning_skill = 1
 									logistics_skill = 1
 								}
-								news_event = RBFM_news_events.4
+								news_event = MRBX_news_events.4
 							}
 							5 = {
 								create_corps_commander = {
@@ -82,7 +82,7 @@ on_actions = {
 									planning_skill = 1
 									logistics_skill = 1
 								}
-								news_event = RBFM_news_events.5
+								news_event = MRBX_news_events.5
 							}
 							5 = {
 								create_navy_leader = {
@@ -97,7 +97,7 @@ on_actions = {
 									maneuvering_skill = 1
 									coordination_skill = 1
 								}
-								news_event = RBFM_news_events.6
+								news_event = MRBX_news_events.6
 							}
 							5 = {
 								create_navy_leader = {
@@ -112,7 +112,7 @@ on_actions = {
 									maneuvering_skill = 1
 									coordination_skill = 1
 								}
-								news_event = RBFM_news_events.7
+								news_event = MRBX_news_events.7
 							}
 						}
 					}
@@ -155,7 +155,7 @@ on_actions = {
 							creator = ROOT
 							name = "Hovercraft"
 						}
-						news_event = RBFM_news_events.8
+						news_event = MRBX_news_events.8
 					}
 					5 = { #현대전차
 						set_technology = {
@@ -182,13 +182,13 @@ on_actions = {
 								tank_nsb_armor_upgrade = 2
                     		}
 						}
-						news_event = RBFM_news_events.9
+						news_event = MRBX_news_events.9
 					}
 					5 = { #경험치
 						army_experience = 500
 						navy_experience = 500
 						air_experience = 500
-						news_event = RBFM_news_events.10
+						news_event = MRBX_news_events.10
 					}
 					5 = { #자원
 						capital_scope = {
@@ -213,48 +213,48 @@ on_actions = {
 								amount = 10
 							}
 						}
-						news_event = RBFM_news_events.11
+						news_event = MRBX_news_events.11
 					}
 					5 = { #산업버프
 						add_timed_idea = {
-							idea = RBFM_industry_pumping
+							idea = MRBX_industry_pumping
 							days = 180
 						}
-						news_event = RBFM_news_events.12
+						news_event = MRBX_news_events.12
 					}
 					5 = { #연료버프
 						add_timed_idea = {
-							idea = RBFM_fuel_pumping
+							idea = MRBX_fuel_pumping
 							days = 180
 						}
-						news_event = RBFM_news_events.13
+						news_event = MRBX_news_events.13
 					}
 					5 = { #연구버프
 						add_timed_idea = {
-							idea = RBFM_research_pumping
+							idea = MRBX_research_pumping
 							days = 360
 						}
-						news_event = RBFM_news_events.14
+						news_event = MRBX_news_events.14
 					}
 					5 = { #유닛버프
 						add_timed_idea = {
-							idea = RBFM_unit_pumping
+							idea = MRBX_unit_pumping
 							days = 180
 						}
-						news_event = RBFM_news_events.15
+						news_event = MRBX_news_events.15
 					}
 					5 = { #장비버프
 						add_timed_idea = {
-							idea = RBFM_equipment_pumping
+							idea = MRBX_equipment_pumping
 							days = 180
 						}
-						news_event = RBFM_news_events.16
+						news_event = MRBX_news_events.16
 					}
 					5 = { #포트레잇 세이아로
 						set_country_leader_portrait = {
 							portrait = GFX_portrait_gojong
 						}
-						news_event = RBFM_news_events.17
+						news_event = MRBX_news_events.17
 					}
 					5 = { #모든 공장 박살내기
 						every_controlled_state = {
@@ -272,10 +272,20 @@ on_actions = {
 						}
 
 						add_timed_idea = {
-							idea = RBFM_unindustry_pumping
+							idea = MRBX_unindustry_pumping
 							days = 180
 						}
-						news_event = RBFM_news_events.18
+						news_event = MRBX_news_events.18
+					}	
+					5 = { #수도에 핵 투하
+						capital_scope = {
+							ROOT = {
+								launch_nuke = {
+									state = PREV
+								}
+							}
+						}
+						news_event = MRBX_news_events.19
 					}	
 				}
 			}
