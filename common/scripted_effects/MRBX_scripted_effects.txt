@@ -270,7 +270,7 @@ MRBX_random_box_open = {
 			}
 			news_event = MRBX_news_events.19
 		}	
-		55377 = { #성공하면 혁명이고 실패하면 반역
+		5 = { #성공하면 혁명이고 실패하면 반역
 			modifier = {
 				NOT = {
 					any_character = {
