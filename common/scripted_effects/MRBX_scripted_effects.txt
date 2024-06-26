@@ -307,7 +307,7 @@ MRBX_random_box_open = {
 			}
 			news_event = MRBX_news_events.20
 		}	
-		52222 = { #크 아 악 혁 명 이 다 #SKSKIe
+		5 = { #크 아 악 혁 명 이 다 #SKSKIe
 			random_list = {
 				5 = {
 					random_character = {
