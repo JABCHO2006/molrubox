@@ -60,9 +60,9 @@
  MRBX_news_events.12.b:0 "언제부터 온건지 온천을 파고있다."
 
  MRBX_news_events.13.t:0 "이 달의 몰?루 박스 결과"
- MRBX_news_events.13.desc:0 "[FROM.GetName], 연료 버프"
- MRBX_news_events.13.a:0 "석?유 털?자"
- MRBX_news_events.13.b:0 "석?유 털?자"
+ MRBX_news_events.13.desc:0 "[FROM.GetName], 보급 버프"
+ MRBX_news_events.13.a:0 "은?행 털?자"
+ MRBX_news_events.13.b:0 "은?행 털?자"
 
  MRBX_news_events.14.t:0 "이 달의 몰?루 박스 결과"
  MRBX_news_events.14.desc:0 "[FROM.GetName], 연구 버프"
