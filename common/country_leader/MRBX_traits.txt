@@ -1,6 +1,8 @@
 leader_traits = {
 	MRBX_traitor = {
 		random = no
+		sprite = 13
+		
 		political_power_factor = -0.3
 
 		ai_will_do = {

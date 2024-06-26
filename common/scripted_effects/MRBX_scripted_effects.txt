@@ -1,0 +1,310 @@
+MRBX_random_box_open = {
+	random_list = {
+		5 = { #이거 사실상 꽝이지?
+			add_stability = 0.05
+			add_war_support = 0.05
+			news_event = MRBX_news_events.1
+		}
+		10 = { #장군 추가 너무 많아서 확률 축소
+			random_list = {
+				5 = {
+					create_field_marshal = {
+						name = "Kosaka Wakamo"
+						portrait_path = "GFX_portrait_Wakamo"
+						traits = {
+							war_hero media_personality brilliant_strategist cavalry_officer career_officer armor_officer cavalry_leader infantry_leader commando naval_invader trickster panzer_leader organizer trickster winter_specialist urban_assault_specialist hill_fighter trait_mountaineer ranger winter_expert trait_engineer panzer_expert fortress_buster expert_improviser desert_fox swamp_fox jungle_rat logistics_wizard offensive_doctrine thorough_planner aggressive_assaulter organisational_leader inspirational_leader
+						}
+						skill = 9
+						attack_skill = 9
+						defense_skill = 9
+						planning_skill = 9
+						logistics_skill = 9
+					}
+					news_event = MRBX_news_events.2
+				}
+				5 = {
+					create_navy_leader = {
+						name = "Kim Young-ha"
+						portrait_path = "GFX_portrait_mrKim"
+						traits = {
+							bold aviation_enthusiast superior_tactician spotter air_controller flight_deck_manager
+						}
+						skill = 9
+						attack_skill = 9
+						defense_skill = 9
+						maneuvering_skill = 9
+						coordination_skill = 9
+					}
+					news_event = MRBX_news_events.3
+				}
+				5 = {
+					create_corps_commander = {
+						name = "Yurizono Seia"
+						portrait_path = "GFX_portrait_Seia"
+						traits = {
+							old_guard
+						}
+						skill = 1
+						attack_skill = 1
+						defense_skill = 1
+						planning_skill = 1
+						logistics_skill = 1
+					}
+					news_event = MRBX_news_events.4
+				}
+				5 = {
+					create_corps_commander = {
+						name = "All-Blue Arona"
+						portrait_path = "GFX_portrait_Arona"
+						traits = {
+							organizer
+						}
+						skill = 1
+						attack_skill = 1
+						defense_skill = 1
+						planning_skill = 1
+						logistics_skill = 1
+					}
+					news_event = MRBX_news_events.5
+				}
+				5 = {
+					create_navy_leader = {
+						name = "Takanashe Hoshino"
+						portrait_path = "GFX_portrait_Hoshino"
+						traits = {
+							
+						}
+						skill = 1
+						attack_skill = 1
+						defense_skill = 1
+						maneuvering_skill = 1
+						coordination_skill = 1
+					}
+					news_event = MRBX_news_events.6
+				}
+				5 = {
+					create_navy_leader = {
+						name = "kurosaki koyuki"
+						portrait_path = "GFX_portrait_Koyuki"
+						traits = {
+							
+						}
+						skill = 1
+						attack_skill = 1
+						defense_skill = 1
+						maneuvering_skill = 1
+						coordination_skill = 1
+					}
+					news_event = MRBX_news_events.7
+				}
+			}
+		}
+		5 = { #해군 추가는 해안선 없는 국가에 뜨지 않아
+			modifier = {
+				NOT = {
+					any_state = {
+						is_controlled_by = ROOT
+						is_coastal = yes
+					}
+				}
+				factor = 0
+			}
+			create_equipment_variant = {
+				name = "Super Class"
+				type = ship_hull_super_heavy_1
+				name_group = JAP_BB_HISTORICAL
+				parent_version = 0
+				allow_without_tech = yes #Makes no difference since focus grants appropriate tech (above), but it improves tooltip
+				modules = {
+					fixed_ship_battery_slot = ship_super_heavy_battery_1
+					fixed_ship_anti_air_slot = ship_anti_air_2
+					fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = heavy_ship_engine_2
+					fixed_ship_secondaries_slot = ship_secondaries_2
+					fixed_ship_armor_slot = ship_armor_shbb
+					front_1_custom_slot = ship_anti_air_1
+					front_2_custom_slot = empty
+					mid_1_custom_slot = empty
+					mid_2_custom_slot = ship_secondaries_2
+					mid_3_custom_slot = ship_secondaries_2
+					rear_1_custom_slot = ship_super_heavy_battery_1
+					rear_2_custom_slot = ship_airplane_launcher_1
+				}
+			}
+			create_ship = {
+				type = ship_hull_super_heavy_1
+				equipment_variant = "Super Class"
+				creator = ROOT
+				name = "Hovercraft"
+			}
+			news_event = MRBX_news_events.8
+		}
+		5 = { #현대전차
+			set_technology = {
+				motorised_infantry = 1
+				mechanised_infantry = 1
+			}
+			create_equipment_variant = {
+				name = "Crusader Chan"
+				type = modern_tank_chassis_1
+				allow_without_tech = yes
+				modules = {
+					main_armament_slot = tank_high_velocity_cannon_3
+					turret_type_slot = tank_modern_tank_turret
+					suspension_type_slot = tank_torsion_bar_suspension
+					armor_type_slot = tank_cast_armor
+					engine_type_slot = tank_petrol_electric_engine
+					special_type_slot_1 = additional_machine_guns
+					special_type_slot_2 = additional_machine_guns
+					special_type_slot_3 = tank_radio_3
+					special_type_slot_4 = easy_maintenance
+				}
+				upgrades = {
+					tank_nsb_engine_upgrade = 11
+					tank_nsb_armor_upgrade = 2
+				}
+			}
+			news_event = MRBX_news_events.9
+		}
+		5 = { #경험치
+			army_experience = 500
+			navy_experience = 500
+			air_experience = 500
+			news_event = MRBX_news_events.10
+		}
+		5 = { #자원
+			capital_scope = {
+				add_resource = {
+					type = aluminium
+					amount = 10
+				}
+				add_resource = {
+					type = rubber
+					amount = 10
+				}
+				add_resource = {
+					type = tungsten
+					amount = 10
+				}
+				add_resource = {
+					type = steel
+					amount = 10
+				}
+				add_resource = {
+					type = chromium
+					amount = 10
+				}
+			}
+			news_event = MRBX_news_events.11
+		}
+		5 = { #산업버프
+			add_timed_idea = {
+				idea = MRBX_industry_pumping
+				days = 180
+			}
+			news_event = MRBX_news_events.12
+		}
+		5 = { #연료버프
+			add_timed_idea = {
+				idea = MRBX_fuel_pumping
+				days = 180
+			}
+			news_event = MRBX_news_events.13
+		}
+		5 = { #연구버프
+			add_timed_idea = {
+				idea = MRBX_research_pumping
+				days = 360
+			}
+			news_event = MRBX_news_events.14
+		}
+		5 = { #유닛버프
+			add_timed_idea = {
+				idea = MRBX_unit_pumping
+				days = 180
+			}
+			news_event = MRBX_news_events.15
+		}
+		5 = { #장비버프
+			add_timed_idea = {
+				idea = MRBX_equipment_pumping
+				days = 180
+			}
+			news_event = MRBX_news_events.16
+		}
+		5 = { #포트레잇 세이아로
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_Seia
+			}
+			news_event = MRBX_news_events.17
+		}
+		5 = { #모든 공장 박살내기
+			every_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				damage_building = {
+					type = arms_factory
+					damage = 10
+				}
+				damage_building = {
+					type = industrial_complex
+					damage = 10
+				}
+			}
+
+			add_timed_idea = {
+				idea = MRBX_unindustry_pumping
+				days = 180
+			}
+			news_event = MRBX_news_events.18
+		}	
+		5 = { #수도에 핵 투하
+			capital_scope = {
+				ROOT = {
+					launch_nuke = {
+						state = PREV
+					}
+				}
+			}
+			news_event = MRBX_news_events.19
+		}	
+		55377 = { #성공하면 혁명이고 실패하면 반역
+			modifier = {
+				NOT = {
+					any_character = {
+						is_advisor = no
+						is_country_leader = no
+						is_unit_leader = no
+					}
+				}
+				factor = 0
+			}
+			random_character = {
+				limit = {
+					is_advisor = no
+					is_country_leader = no
+					is_unit_leader = no
+				}
+				set_character_name = MRBX_KAYA
+				set_portraits = {
+					civilian = { small ="GFX_portrait_KAYA" }
+				}
+				add_advisor_role = {
+					activate = yes
+					advisor = {
+						slot = political_advisor
+						cost = 150
+						idea_token = MRBX_KAYA_traitor
+						can_be_fired = no
+						traits = {
+							MRBX_traitor
+						}
+					}
+				}
+			}
+			news_event = MRBX_news_events.20
+		}	
+	}
+}

@@ -3,7 +3,7 @@ tags={
 	"Utilities"
 }
 name="molrubox"
-pictuer="thumbnail.png"
+picture="thumbnail.png"
 supported_version="1.14.*"
 path="mod/molrubox"
 remote_file_id="3258816559"

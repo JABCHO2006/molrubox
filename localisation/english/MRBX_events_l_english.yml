@@ -94,4 +94,11 @@
  MRBX_news_events.19.a:0 "수도가 좀 밝아진거 같은걸"
  MRBX_news_events.19.b:0 "수도가 좀 밝아진거 같은걸"  
 
+ MRBX_news_events.20.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.20.desc:0 "[FROM.GetName], 시라누이 카야의 쿠데타"
+ MRBX_news_events.20.a:0 "저긴 망했군"
+ MRBX_news_events.20.b:0 "저긴 망했군"  
+
  MRBX_traitor: "반역자"
+
+ MRBX_KAYA: "시라누이 카야"

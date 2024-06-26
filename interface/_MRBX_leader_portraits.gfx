@@ -129,6 +129,11 @@ spriteTypes = {
 		name = "GFX_blue_event_018"
 		texturefile = "gfx/event_pictures/blue_event_018.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_blue_event_020"
+		texturefile = "gfx/event_pictures/blue_event_020.dds"
+	}
 
 	
 
