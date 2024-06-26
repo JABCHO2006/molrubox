@@ -583,6 +583,6 @@ MRBX_random_box_open = {
 			set_country_leader_portrait = {
 				portrait = GFX_portrait_Serikyaru
 			}
-		
+		news_event = MRBX_news_events.25
 	}
 }
