@@ -31,9 +31,15 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_portrait_Serikyaru"
+		texturefile = "gfx/leaders/세리캬루.dds"
+	}
+
+	spriteType = {
 		name = "GFX_portrait_KAYA"
 		texturefile = "gfx/ideas/idea_KAYA.tga"
 	}
+	
 
 	spriteType = {
 		name = "GFX_blue_event_001"

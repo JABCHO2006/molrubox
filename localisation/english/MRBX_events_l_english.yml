@@ -134,3 +134,8 @@
  MRBX_communism_trait: "재교육된 공산주의자"
  MRBX_fascism_trait: "암흑의 독재자"
  MRBX_neutrality_trait: "군사 정부의 지배자"
+
+ MRBX_news_events.25.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.25.desc:0 "[FROM.GetName], 지도자 얼굴 세리캬루"
+ MRBX_news_events.25.a:0 "문뜩 머릿속에 떠오는 단어, 배신."
+ MRBX_news_events.25.b:0 "문뜩 머릿속에 떠오는 단어, 배신."

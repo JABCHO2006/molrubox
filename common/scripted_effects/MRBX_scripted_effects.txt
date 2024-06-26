@@ -578,5 +578,11 @@ MRBX_random_box_open = {
 			}
 			news_event = MRBX_news_events.24
 		}	
+
+		5 = { #포트레잇 세리캬루로 #Seia
+			set_country_leader_portrait = {
+				portrait = GFX_portrait_Serikyaru
+			}
+		
 	}
 }
