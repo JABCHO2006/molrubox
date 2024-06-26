@@ -246,11 +246,7 @@ MRBX_random_box_open = {
 				}
 				damage_building = {
 					type = arms_factory
-					damage = 10
-				}
-				damage_building = {
-					type = industrial_complex
-					damage = 10
+					damage = 25
 				}
 			}
 
