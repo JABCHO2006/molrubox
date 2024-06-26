@@ -16,7 +16,7 @@ every_possible_country = {
 			}
 		}
 		portraits = { 
-			army = { small = "GFX_portrait_ye_wanyong" }
+			army = { small = "GFX_portrait_KAYA" }
 		}
 	}
 }

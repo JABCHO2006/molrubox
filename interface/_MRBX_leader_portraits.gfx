@@ -1,38 +1,38 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_portrait_napoleon"
-		texturefile = "gfx/leaders/napoleon.dds"
+		name = "GFX_portrait_Wakamo"
+		texturefile = "gfx/leaders/와카모.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_yi_sunsin"
-		texturefile = "gfx/leaders/yi_sunsin.dds"
+		name = "GFX_portrait_mrKim"
+		texturefile = "gfx/leaders/김용하.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_gojong"
-		texturefile = "gfx/leaders/gojong.dds"
+		name = "GFX_portrait_Seia"
+		texturefile = "gfx/leaders/세이아.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_wongyun"
-		texturefile = "gfx/leaders/wongyun.dds"
+		name = "GFX_portrait_Hoshino"
+		texturefile = "gfx/leaders/호시노.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_mutaguchi_renya"
-		texturefile = "gfx/leaders/mutaguchi_renya.dds"
+		name = "GFX_portrait_Arona"
+		texturefile = "gfx/leaders/아로나.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_winston_churchill"
-		texturefile = "gfx/leaders/winston_churchill.dds"
+		name = "GFX_portrait_Koyuki"
+		texturefile = "gfx/leaders/코유키.dds"
 	}
 
 	spriteType = {
-		name = "GFX_portrait_ye_wanyong"
-		texturefile = "gfx/leaders/ye_wanyong.dds"
+		name = "GFX_portrait_KAYA"
+		texturefile = "gfx/ideas/idea_KAYA.tga"
 	}
 
 	spriteType = {
