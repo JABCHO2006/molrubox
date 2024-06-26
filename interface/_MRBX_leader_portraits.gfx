@@ -150,6 +150,11 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/blue_event_023.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_blue_event_024"
+		texturefile = "gfx/event_pictures/blue_event_024.dds"
+	}
+	
 
 	spriteType = {
 		name = "GFX_idea_MRBX_fuel_pumping"
