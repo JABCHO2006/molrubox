@@ -5,7 +5,7 @@ MRBX_random_box_open = {
 			add_war_support = 0.05
 			news_event = MRBX_news_events.1
 		}
-		10 = { #장군 추가 너무 많아서 확률 축소 #Seia
+		15 = { #장군 추가 너무 많아서 확률 축소 #Seia
 			random_list = {
 				5 = {
 					create_field_marshal = {
