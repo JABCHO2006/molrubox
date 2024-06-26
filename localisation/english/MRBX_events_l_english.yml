@@ -99,6 +99,11 @@
  MRBX_news_events.20.a:0 "저긴 망했군"
  MRBX_news_events.20.b:0 "저긴 망했군"  
 
+ MRBX_news_events.21.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.21.desc:0 "[FROM.GetName], 정치 사상 변경"
+ MRBX_news_events.21.a:0 "젠장 또 일루미나티야"
+ MRBX_news_events.21.b:0 "젠장 또 일루미나티야"  
+
  MRBX_traitor: "반역자"
 
  MRBX_KAYA: "시라누이 카야"
@@ -109,3 +114,8 @@
  MRBX_unit_pumping: "§C빛이여!!!!!!!!!§!"
  MRBX_equipment_pumping: "엔지니어부의 폭주"
  MRBX_unindustry_pumping: "공사다망"
+
+ MRBX_democratic_trait: "민주주의 비밀결사"
+ MRBX_communism_trait: "재교육된 공산주의자"
+ MRBX_fascism_trait: "암흑의 독재자"
+ MRBX_neutrality_trait: "군사 정부의 지배자"

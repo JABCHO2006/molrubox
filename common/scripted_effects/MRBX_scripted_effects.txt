@@ -307,5 +307,110 @@ MRBX_random_box_open = {
 			}
 			news_event = MRBX_news_events.20
 		}	
+		52222 = { #크 아 악 혁 명 이 다 #SKSKIe
+			random_list = {
+				5 = {
+					random_character = {
+						limit = {
+							is_country_leader = yes
+						}
+						add_country_leader_role = {
+							promote_leader = yes
+							country_leader = {
+								ideology = populism
+								expire = "1965.1.1.1"
+								traits = { MRBX_democratic_trait }
+							}
+						}
+					}
+					set_politics = {
+						ruling_party = democratic
+						last_election = "1934.3.26"
+						election_frequency = 48
+						elections_allowed = no
+					}
+					add_popularity = {
+						ideology = democratic
+						popularity = 0.80
+					}
+				}
+				5 = {
+					random_character = {
+						limit = {
+							is_country_leader = yes
+						}
+						add_country_leader_role = {
+							promote_leader = yes
+							country_leader = {
+								ideology = marxism
+								expire = "1965.1.1.1"
+								traits = { MRBX_communism_trait }
+							}
+						}
+					}
+					set_politics = {
+						ruling_party = communism
+						last_election = "1934.3.26"
+						election_frequency = 48
+						elections_allowed = no
+					}
+					add_popularity = {
+						ideology = communism
+						popularity = 0.80
+					}
+				}
+				5 = {
+					random_character = {
+						limit = {
+							is_country_leader = yes
+						}
+						add_country_leader_role = {
+							promote_leader = yes
+							country_leader = {
+								ideology = fascism_ideology
+								expire = "1965.1.1.1"
+								traits = { MRBX_fascism_trait }
+							}
+						}
+					}
+					set_politics = {
+						ruling_party = fascism
+						last_election = "1934.3.26"
+						election_frequency = 48
+						elections_allowed = no
+					}
+					add_popularity = {
+						ideology = fascism
+						popularity = 0.80
+					}
+				}
+				5 = {
+					random_character = {
+						limit = {
+							is_country_leader = yes
+						}
+						add_country_leader_role = {
+							promote_leader = yes
+							country_leader = {
+								ideology = oligarchism
+								expire = "1965.1.1.1"
+								traits = { MRBX_neutrality_trait }
+							}
+						}
+					}
+					set_politics = {
+						ruling_party = neutrality
+						last_election = "1934.3.26"
+						election_frequency = 48
+						elections_allowed = no
+					}
+					add_popularity = {
+						ideology = neutrality
+						popularity = 0.80
+					}
+				}
+			}
+			news_event = MRBX_news_events.21
+		}	
 	}
 }
