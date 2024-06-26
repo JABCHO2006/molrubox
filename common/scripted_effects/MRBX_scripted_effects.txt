@@ -310,6 +310,10 @@ MRBX_random_box_open = {
 		5 = { #크 아 악 혁 명 이 다 #SKSKIe
 			random_list = {
 				5 = {
+					modifier = {
+						has_government = democratic
+						factor = 0
+					}
 					random_character = {
 						limit = {
 							is_country_leader = yes
@@ -335,6 +339,10 @@ MRBX_random_box_open = {
 					}
 				}
 				5 = {
+					modifier = {
+						has_government = communism
+						factor = 0
+					}
 					random_character = {
 						limit = {
 							is_country_leader = yes
@@ -360,6 +368,10 @@ MRBX_random_box_open = {
 					}
 				}
 				5 = {
+					modifier = {
+						has_government = fascism
+						factor = 0
+					}
 					random_character = {
 						limit = {
 							is_country_leader = yes
@@ -385,6 +397,10 @@ MRBX_random_box_open = {
 					}
 				}
 				5 = {
+					modifier = {
+						has_government = neutrality
+						factor = 0
+					}
 					random_character = {
 						limit = {
 							is_country_leader = yes
