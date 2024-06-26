@@ -1,11 +1,11 @@
 MRBX_random_box_open = {
 	random_list = {
-		5 = { #이거 사실상 꽝이지?
+		5 = { #이거 사실상 꽝이지? #Seia
 			add_stability = 0.05
 			add_war_support = 0.05
 			news_event = MRBX_news_events.1
 		}
-		10 = { #장군 추가 너무 많아서 확률 축소
+		10 = { #장군 추가 너무 많아서 확률 축소 #Seia
 			random_list = {
 				5 = {
 					create_field_marshal = {
@@ -99,7 +99,7 @@ MRBX_random_box_open = {
 				}
 			}
 		}
-		5 = { #해군 추가는 해안선 없는 국가에 뜨지 않아
+		5 = { #해군 추가는 해안선 없는 국가에 뜨지 않아 #Seia
 			modifier = {
 				NOT = {
 					any_state = {
@@ -140,7 +140,7 @@ MRBX_random_box_open = {
 			}
 			news_event = MRBX_news_events.8
 		}
-		5 = { #현대전차
+		5 = { #현대전차 #Seia
 			set_technology = {
 				motorised_infantry = 1
 				mechanised_infantry = 1
@@ -167,13 +167,13 @@ MRBX_random_box_open = {
 			}
 			news_event = MRBX_news_events.9
 		}
-		5 = { #경험치
+		5 = { #경험치 #Seia
 			army_experience = 500
 			navy_experience = 500
 			air_experience = 500
 			news_event = MRBX_news_events.10
 		}
-		5 = { #자원
+		5 = { #자원 #Seia
 			capital_scope = {
 				add_resource = {
 					type = aluminium
@@ -198,48 +198,48 @@ MRBX_random_box_open = {
 			}
 			news_event = MRBX_news_events.11
 		}
-		5 = { #산업버프
+		5 = { #산업버프 #Seia
 			add_timed_idea = {
 				idea = MRBX_industry_pumping
 				days = 180
 			}
 			news_event = MRBX_news_events.12
 		}
-		5 = { #연료버프
+		5 = { #연료버프 #Seia
 			add_timed_idea = {
 				idea = MRBX_fuel_pumping
 				days = 180
 			}
 			news_event = MRBX_news_events.13
 		}
-		5 = { #연구버프
+		5 = { #연구버프 #Seia
 			add_timed_idea = {
 				idea = MRBX_research_pumping
 				days = 360
 			}
 			news_event = MRBX_news_events.14
 		}
-		5 = { #유닛버프
+		5 = { #유닛버프 #Seia
 			add_timed_idea = {
 				idea = MRBX_unit_pumping
 				days = 180
 			}
 			news_event = MRBX_news_events.15
 		}
-		5 = { #장비버프
+		5 = { #장비버프 #Seia
 			add_timed_idea = {
 				idea = MRBX_equipment_pumping
 				days = 180
 			}
 			news_event = MRBX_news_events.16
 		}
-		5 = { #포트레잇 세이아로
+		5 = { #포트레잇 세이아로 #Seia
 			set_country_leader_portrait = {
 				portrait = GFX_portrait_Seia
 			}
 			news_event = MRBX_news_events.17
 		}
-		5 = { #모든 공장 박살내기
+		5 = { #모든 공장 박살내기 #SKSKIe
 			every_controlled_state = {
 				limit = {
 					is_core_of = ROOT
@@ -256,7 +256,7 @@ MRBX_random_box_open = {
 			}
 			news_event = MRBX_news_events.18
 		}	
-		5 = { #수도에 핵 투하
+		5 = { #수도에 핵 투하 #SKSKIe
 			capital_scope = {
 				ROOT = {
 					launch_nuke = {
@@ -266,7 +266,7 @@ MRBX_random_box_open = {
 			}
 			news_event = MRBX_news_events.19
 		}	
-		5 = { #성공하면 혁명이고 실패하면 반역
+		5 = { #성공하면 혁명이고 실패하면 반역 #SKSKIe
 			modifier = {
 				NOT = {
 					any_character = {
