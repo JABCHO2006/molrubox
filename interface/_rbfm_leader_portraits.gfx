@@ -1,0 +1,166 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_napoleon"
+		texturefile = "gfx/leaders/napoleon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_yi_sunsin"
+		texturefile = "gfx/leaders/yi_sunsin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_gojong"
+		texturefile = "gfx/leaders/gojong.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_wongyun"
+		texturefile = "gfx/leaders/wongyun.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_mutaguchi_renya"
+		texturefile = "gfx/leaders/mutaguchi_renya.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_winston_churchill"
+		texturefile = "gfx/leaders/winston_churchill.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ye_wanyong"
+		texturefile = "gfx/leaders/ye_wanyong.dds"
+	}
+
+	spriteType = {
+		name = "GFX_blue_event_001"
+		texturefile = "gfx/event_pictures/blue_event_001.dds"
+	}
+
+	spriteType = {
+		name = "GFX_blue_event_002"
+		texturefile = "gfx/event_pictures/blue_event_002.dds"
+	}
+
+	spriteType = {
+		name = "GFX_blue_event_003"
+		texturefile = "gfx/event_pictures/blue_event_003.dds"
+	}
+
+	spriteType = {
+		name = "GFX_blue_event_004"
+		texturefile = "gfx/event_pictures/blue_event_004.dds"
+	}
+
+	spriteType = {
+		name = "GFX_blue_event_005"
+		texturefile = "gfx/event_pictures/blue_event_005.dds"
+	}
+
+	spriteType = {
+		name = "GFX_blue_event_006"
+		texturefile = "gfx/event_pictures/blue_event_006.dds"
+	}
+
+	spriteType = {
+		name = "GFX_blue_event_007"
+		texturefile = "gfx/event_pictures/blue_event_007.dds"
+	}
+
+	spriteType = {
+		name = "GFX_blue_event_008"
+		texturefile = "gfx/event_pictures/blue_event_008.dds"
+	}
+
+	spriteType = {
+		name = "GFX_blue_event_009"
+		texturefile = "gfx/event_pictures/blue_event_009.dds"
+	}
+
+	spriteType = {
+		name = "GFX_blue_event_010"
+		texturefile = "gfx/event_pictures/blue_event_010.dds"
+	}
+
+	spriteType = {
+		name = "GFX_blue_event_011"
+		texturefile = "gfx/event_pictures/blue_event_011.dds"
+	}
+
+	spriteType = {
+		name = "GFX_blue_event_012"
+		texturefile = "gfx/event_pictures/blue_event_012.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_blue_event_013"
+		texturefile = "gfx/event_pictures/blue_event_013.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_blue_event_014"
+		texturefile = "gfx/event_pictures/blue_event_014.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_blue_event_015"
+		texturefile = "gfx/event_pictures/blue_event_015.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_blue_event_016"
+		texturefile = "gfx/event_pictures/blue_event_016.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_blue_event_017"
+		texturefile = "gfx/event_pictures/blue_event_017.dds"
+	}
+
+	spriteType = {
+		name = "GFX_blue_event_018"
+		texturefile = "gfx/event_pictures/blue_event_018.dds"
+	}
+
+	
+
+	spriteType = {
+		name = "GFX_idea_RBFM_fuel_pumping"
+		texturefile = "gfx/ideas/ABY_start_ideas.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RBFM_industry_pumping"
+		texturefile = "gfx/ideas/idea_GEH_hot_spring_department_4.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_RBFM_unit_pumping"
+		texturefile = "gfx/ideas/idea_light_sword_spuernova_idea.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RBFM_equipment_pumping"
+		texturefile = "gfx/ideas/idea_MIL_infantry_equipment_organization.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RBFM_research_pumping"
+		texturefile = "gfx/ideas/idea_MIL_satellite_dynamic_modifier.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RBFM_unindustry_pumping"
+		texturefile = "gfx/ideas/zotdam.tga"
+	}
+
+
+}

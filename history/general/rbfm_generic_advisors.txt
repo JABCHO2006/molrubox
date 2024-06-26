@@ -1,0 +1,22 @@
+# For minor countries where advisors are not defined
+# Generate them from a generic template
+
+# Political advisors
+every_possible_country = {
+	limit = {
+		has_country_flag = RBFM_ye_wanyong
+	}
+	generate_character = {
+		token_base = generic_traitor # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { traitor }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		portraits = { 
+			army = { small = "GFX_portrait_ye_wanyong" }
+		}
+	}
+}

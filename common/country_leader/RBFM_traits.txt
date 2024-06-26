@@ -1,0 +1,10 @@
+leader_traits = {
+	traitor = {
+		random = no
+		political_power_factor = -0.3
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

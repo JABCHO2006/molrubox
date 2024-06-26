@@ -1,0 +1,1 @@
+NDefines.NMilitary.UNIT_LEADER_TRAIT_SLOT_PER_LEVEL = { 1, 1, 1, 0.0 }

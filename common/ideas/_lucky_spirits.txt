@@ -1,0 +1,56 @@
+ideas = {
+	country = {
+		RBFM_industry_pumping = {
+			picture = idea_GEH_hot_spring_department_4
+
+			modifier = {
+				production_speed_buildings_factor = 0.5
+			}
+		}
+
+		RBFM_fuel_pumping = {
+			picture = ABY_start_ideas
+
+			modifier = {
+				army_fuel_consumption_factor = -0.9
+				air_fuel_consumption_factor = -0.9
+				navy_fuel_consumption_factor = -0.9
+				supply_consumption_factor = -0.5
+			}
+		}
+
+		RBFM_research_pumping = {
+			picture = idea_MIL_satellite_dynamic_modifier
+
+			modifier = {
+				research_speed_factor = 0.5
+			}
+		}
+
+		RBFM_unit_pumping = {
+			picture = idea_light_sword_spuernova_idea
+
+			modifier = {
+				army_attack_factor = 0.3
+				army_defence_factor = 0.3
+			}
+		}
+
+		RBFM_equipment_pumping = {
+			picture = idea_MIL_infantry_equipment_organization
+
+			modifier = {
+				production_factory_efficiency_gain_factor = 1
+				production_factory_max_efficiency_factor = 0.5
+			}
+		}
+
+		RBFM_unindustry_pumping = {
+			picture = zotdam
+
+			modifier = {
+				production_speed_buildings_factor = -0.1
+			}
+		}
+	}
+}
