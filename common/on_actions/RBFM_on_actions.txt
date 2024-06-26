@@ -17,102 +17,115 @@ on_actions = {
 				}
 
 				random_list = {
-					5 = {
+					5 = { #이거 꽝이지?
 						add_stability = 0.05
 						add_war_support = 0.05
 						news_event = RBFM_news_events.1
 					}
-					5 = {
-						create_field_marshal = {
-							name = "Kosaka Wakamo"
-							portrait_path = "GFX_portrait_napoleon"
-							traits = {
-								war_hero media_personality brilliant_strategist cavalry_officer career_officer armor_officer cavalry_leader infantry_leader commando naval_invader trickster panzer_leader organizer trickster winter_specialist urban_assault_specialist hill_fighter trait_mountaineer ranger winter_expert trait_engineer panzer_expert fortress_buster expert_improviser desert_fox swamp_fox jungle_rat logistics_wizard offensive_doctrine thorough_planner aggressive_assaulter organisational_leader inspirational_leader
+					10 = { #장군 추가 너무 많아서 확률 축소
+						random_list = {
+							5 = {
+								create_field_marshal = {
+									name = "Kosaka Wakamo"
+									portrait_path = "GFX_portrait_napoleon"
+									traits = {
+										war_hero media_personality brilliant_strategist cavalry_officer career_officer armor_officer cavalry_leader infantry_leader commando naval_invader trickster panzer_leader organizer trickster winter_specialist urban_assault_specialist hill_fighter trait_mountaineer ranger winter_expert trait_engineer panzer_expert fortress_buster expert_improviser desert_fox swamp_fox jungle_rat logistics_wizard offensive_doctrine thorough_planner aggressive_assaulter organisational_leader inspirational_leader
+									}
+									skill = 9
+									attack_skill = 9
+									defense_skill = 9
+									planning_skill = 9
+									logistics_skill = 9
+								}
+								news_event = RBFM_news_events.2
 							}
-							skill = 9
-							attack_skill = 9
-							defense_skill = 9
-							planning_skill = 9
-							logistics_skill = 9
-						}
-						news_event = RBFM_news_events.2
-					}
-					5 = {
-						create_navy_leader = {
-							name = "Kim Young-ha"
-							portrait_path = "GFX_portrait_yi_sunsin"
-							traits = {
-								bold aviation_enthusiast superior_tactician spotter air_controller flight_deck_manager
+							5 = {
+								create_navy_leader = {
+									name = "Kim Young-ha"
+									portrait_path = "GFX_portrait_yi_sunsin"
+									traits = {
+										bold aviation_enthusiast superior_tactician spotter air_controller flight_deck_manager
+									}
+									skill = 9
+									attack_skill = 9
+									defense_skill = 9
+									maneuvering_skill = 9
+									coordination_skill = 9
+								}
+								news_event = RBFM_news_events.3
 							}
-							skill = 9
-							attack_skill = 9
-							defense_skill = 9
-							maneuvering_skill = 9
-							coordination_skill = 9
-						}
-						news_event = RBFM_news_events.3
-					}
-					5 = {
-						create_corps_commander = {
-							name = "Yurizono Seia"
-							portrait_path = "GFX_portrait_gojong"
-							traits = {
-								old_guard
+							5 = {
+								create_corps_commander = {
+									name = "Yurizono Seia"
+									portrait_path = "GFX_portrait_gojong"
+									traits = {
+										old_guard
+									}
+									skill = 1
+									attack_skill = 1
+									defense_skill = 1
+									planning_skill = 1
+									logistics_skill = 1
+								}
+								news_event = RBFM_news_events.4
 							}
-							skill = 1
-							attack_skill = 1
-							defense_skill = 1
-							planning_skill = 1
-							logistics_skill = 1
-						}
-						news_event = RBFM_news_events.4
-					}
-					5 = {
-						create_corps_commander = {
-							name = "All-Blue Arona"
-							portrait_path = "GFX_portrait_mutaguchi_renya"
-							traits = {
-								organizer
+							5 = {
+								create_corps_commander = {
+									name = "All-Blue Arona"
+									portrait_path = "GFX_portrait_mutaguchi_renya"
+									traits = {
+										organizer
+									}
+									skill = 1
+									attack_skill = 1
+									defense_skill = 1
+									planning_skill = 1
+									logistics_skill = 1
+								}
+								news_event = RBFM_news_events.5
 							}
-							skill = 1
-							attack_skill = 1
-							defense_skill = 1
-							planning_skill = 1
-							logistics_skill = 1
-						}
-						news_event = RBFM_news_events.5
-					}
-					5 = {
-						create_navy_leader = {
-							name = "Takanashe Hoshino"
-							portrait_path = "GFX_portrait_wongyun"
-							traits = {
-								
+							5 = {
+								create_navy_leader = {
+									name = "Takanashe Hoshino"
+									portrait_path = "GFX_portrait_wongyun"
+									traits = {
+										
+									}
+									skill = 1
+									attack_skill = 1
+									defense_skill = 1
+									maneuvering_skill = 1
+									coordination_skill = 1
+								}
+								news_event = RBFM_news_events.6
 							}
-							skill = 1
-							attack_skill = 1
-							defense_skill = 1
-							maneuvering_skill = 1
-							coordination_skill = 1
-						}
-						news_event = RBFM_news_events.6
-					}
-					5 = {
-						create_navy_leader = {
-							name = "kurosaki koyuki"
-							portrait_path = "GFX_portrait_winston_churchill"
-							traits = {
-								
+							5 = {
+								create_navy_leader = {
+									name = "kurosaki koyuki"
+									portrait_path = "GFX_portrait_winston_churchill"
+									traits = {
+										
+									}
+									skill = 1
+									attack_skill = 1
+									defense_skill = 1
+									maneuvering_skill = 1
+									coordination_skill = 1
+								}
+								news_event = RBFM_news_events.7
 							}
-							skill = 1
-							attack_skill = 1
-							defense_skill = 1
-							maneuvering_skill = 1
-							coordination_skill = 1
 						}
-						news_event = RBFM_news_events.7
 					}
-					5 = {
+					5 = { #해군 추가는 해안선 없는 국가에 뜨지 않아
+						modifier = {
+							NOT = {
+								any_state = {
+									is_controlled_by = ROOT
+									is_coastal = yes
+								}
+							}
+							factor = 0
+						}
 						create_equipment_variant = {
 							name = "Super Class"
 							type = ship_hull_super_heavy_1
@@ -144,7 +157,7 @@ on_actions = {
 						}
 						news_event = RBFM_news_events.8
 					}
-					5 = {
+					5 = { #현대전차
 						set_technology = {
 							motorised_infantry = 1
 							mechanised_infantry = 1
@@ -171,13 +184,13 @@ on_actions = {
 						}
 						news_event = RBFM_news_events.9
 					}
-					5 = {
+					5 = { #경험치
 						army_experience = 500
 						navy_experience = 500
 						air_experience = 500
 						news_event = RBFM_news_events.10
 					}
-					5 = {
+					5 = { #자원
 						capital_scope = {
 							add_resource = {
 								type = aluminium
@@ -202,62 +215,61 @@ on_actions = {
 						}
 						news_event = RBFM_news_events.11
 					}
-					5 = {
+					5 = { #산업버프
 						add_timed_idea = {
 							idea = RBFM_industry_pumping
 							days = 180
 						}
 						news_event = RBFM_news_events.12
 					}
-					5 = {
+					5 = { #연료버프
 						add_timed_idea = {
 							idea = RBFM_fuel_pumping
 							days = 180
 						}
 						news_event = RBFM_news_events.13
 					}
-					5 = {
+					5 = { #연구버프
 						add_timed_idea = {
 							idea = RBFM_research_pumping
 							days = 360
 						}
 						news_event = RBFM_news_events.14
 					}
-					5 = {
+					5 = { #유닛버프
 						add_timed_idea = {
 							idea = RBFM_unit_pumping
 							days = 180
 						}
 						news_event = RBFM_news_events.15
 					}
-					5 = {
+					5 = { #장비버프
 						add_timed_idea = {
 							idea = RBFM_equipment_pumping
 							days = 180
 						}
 						news_event = RBFM_news_events.16
 					}
-					5 = {
+					5 = { #포트레잇 세이아로
 						set_country_leader_portrait = {
 							portrait = GFX_portrait_gojong
 						}
 						news_event = RBFM_news_events.17
 					}
-					5 = {
-
+					5 = { #모든 공장 박살내기
 						every_controlled_state = {
-                limit = {
-                    is_core_of = ROOT
-                }
-                damage_building = {
-                    type = arms_factory
-                    damage = 10
-                }
-                damage_building = {
-                    type = industrial_complex
-                    damage = 10
-                }
-            }
+							limit = {
+								is_core_of = ROOT
+							}
+							damage_building = {
+								type = arms_factory
+								damage = 10
+							}
+							damage_building = {
+								type = industrial_complex
+								damage = 10
+							}
+						}
 
 						add_timed_idea = {
 							idea = RBFM_unindustry_pumping
