@@ -1,0 +1,141 @@
+﻿l_japanese:
+ MRBX_news_events.1.t:0 "今月のモルボックス"
+ MRBX_news_events.1.desc:0 "[FROM.GetName], 安定度,戦争支持図"
+ MRBX_news_events.1.a:0 "とにかくこれ、それを保証しなさい！"
+ MRBX_news_events.1.b:0 "とにかくこれ、それを保証しなさい！"
+
+ MRBX_news_events.2.t:0 "今月のモル-ボックス"
+ MRBX_news_events.2.desc:0 "[FROM.GetName], センセを狙うわかも"
+ MRBX_news_events.2.a:0 "婚姻届に署名をする。 "
+ MRBX_news_events.2.b:0 "婚姻届に署名をする。"
+
+ MRBX_news_events.3.t:0 "今月のモルボックス"
+ MRBX_news_events.3.desc:0 "[FROM.GetName], ゴッドヨンハ"
+ MRBX_news_events.3.a:0 "ブルーアーカイブは安全です。"
+ MRBX_news_events.3.b:0 "ブルーアーカイブは安全です。"
+
+ MRBX_news_events.4.t:0 "今月のモルボックス"
+ MRBX_news_events.4.desc:0 "[FROM.GetName], また登場できなかったセイア"
+ MRBX_news_events.4.a:0 ".-- .... -.-- !!"
+ MRBX_news_events.4.b:0 ".-- .... -.-- !!"
+
+ MRBX_news_events.5.t:0 "今月のモルボックス"
+ MRBX_news_events.5.desc:0 "[FROM.GetName], 青い封筒をもたらしたアロナ"
+ MRBX_news_events.5.a:0 "オールブルーだと知ってる？"
+ MRBX_news_events.5.b:0 "オールブルーだと知ってる？"
+
+ MRBX_news_events.6.t:0 "今月のモルボックス"
+ MRBX_news_events.6.desc:0 "[FROM.GetName], あつい星野提督"
+ MRBX_news_events.6.a:0 "動いてないのに暑いよ~!"
+ MRBX_news_events.6.b:0 "動いてないのに暑いよ~!"
+
+ MRBX_news_events.7.t:0 "今月のモルボックス"
+ MRBX_news_events.7.desc:0 "[FROM.GetName], ギャンブル船で発見された小雪"
+ MRBX_news_events.7.a:0 "ニハハハ！"
+ MRBX_news_events.7.b:0 "ニハハハ！"
+
+ MRBX_news_events.8.t:0 "今月のモルボックス"
+ MRBX_news_events.8.desc:0 "[FROM.GetName], わかもが持ってきたホバークラフト(?)"
+ MRBX_news_events.8.a:0 "これをここまで引っ張ってきた？"
+ MRBX_news_events.8.b:0 "これをここまで引っ張ってきた？"
+
+ MRBX_news_events.9.t:0 "今月のモルボックス"
+ MRBX_news_events.9.desc:0 "[FROM.GetName], 最新型クルセイダー戦車"
+ MRBX_news_events.9.a:0 "ヒフミのガチャガチャ電車ドリフト。"
+ MRBX_news_events.9.b:0 "ヒフミのガチャガチャ電車ドリフト。"
+
+ MRBX_news_events.10.t:0 "今月のモルボックス"
+ MRBX_news_events.10.desc:0 "[FROM.GetName], 経験値"
+ MRBX_news_events.10.a:0 "小春の知能が+1上がった。"
+ MRBX_news_events.10.b:0 "小春の知能が+1上がった。"
+
+ MRBX_news_events.11.t:0 "今月のモルボックス"
+ MRBX_news_events.11.desc:0 "[FROM.GetName], 資源"
+ MRBX_news_events.11.a:0 "ダンバルを40個ほど買いました!"
+ MRBX_news_events.11.b:0 "ダンバルを40個ほど買いました!"
+
+ MRBX_news_events.12.t:0 "今月のモルボックス"
+ MRBX_news_events.12.desc:0 "[FROM.GetName], 産業バフ"
+ MRBX_news_events.12.a:0 "いつから穏やかな温泉を掘っている。"
+ MRBX_news_events.12.b:0 "いつから穏やかな温泉を掘っている。"
+
+ MRBX_news_events.13.t:0 "今月のモルボックス"
+ MRBX_news_events.13.desc:0 "[FROM.GetName], 燃料バフ"
+ MRBX_news_events.13.a:0 "アビドスの学生たちが石油を打ち明けてきた"
+ MRBX_news_events.13.b:0 "アビドスの学生たちが石油を打ち明けてきた"
+
+ MRBX_news_events.14.t:0 "今月のモルボックス"
+ MRBX_news_events.14.desc:0 "[FROM.GetName], 研究バフ"
+ MRBX_news_events.14.a:0 "超電災病薬何時期が助けを与えた。"
+ MRBX_news_events.14.b:0 "超電災病薬何時期が助けを与えた。"
+
+ MRBX_news_events.15.t:0 "今月のモルボックス"
+ MRBX_news_events.15.desc:0 "[FROM.GetName], ユニットバフ"
+ MRBX_news_events.15.a:0 "レベルアップ！"
+ MRBX_news_events.15.b:0 "レベルアップ！"
+
+ MRBX_news_events.16.t:0 "今月のモルボックス"
+ MRBX_news_events.16.desc:0 "[FROM.GetName], 機器生産バフ"
+ MRBX_news_events.16.a:0 "第3金融で装備を借りた。"
+ MRBX_news_events.16.b:0 "第3金融で装備を借りた。"
+
+ MRBX_news_events.17.t:0 "今月のモルボックス"
+ MRBX_news_events.17.desc:0 "[FROM.GetName], リーダーフェイスセイア"
+ MRBX_news_events.17.a:0 "全世界がセイアだ。"
+ MRBX_news_events.17.b:0 "全世界がセイアだ。"
+
+ MRBX_news_events.18.t:0 "今月のモルボックス"
+ MRBX_news_events.18.desc:0 "[FROM.GetName], 工事ダマン"
+ MRBX_news_events.18.a:0 "工事台無しだった"
+ MRBX_news_events.18.b:0 "工事台無しだった"  
+
+ MRBX_news_events.19.t:0 "今月のモルボックス"
+ MRBX_news_events.19.desc:0 "[FROM.GetName], 首都に投下された核兵器"
+ MRBX_news_events.19.a:0 "首都が少し明るくなったと思います。"
+ MRBX_news_events.19.b:0 "首都が少し明るくなったと思います。"  
+
+ MRBX_news_events.20.t:0 "今月のモルボックス"
+ MRBX_news_events.20.desc:0 "[FROM.GetName], 不知火 カヤのクーデター"
+ MRBX_news_events.20.a:0 "あの場所は台無しだったけど"
+ MRBX_news_events.20.b:0 "あの場所は台無しだったけど"  
+
+ MRBX_news_events.21.t:0 "今月のモルボックス"
+ MRBX_news_events.21.desc:0 "[FROM.GetName], 政治思想の変更"
+ MRBX_news_events.21.a:0 "くそまたイルミナティって？"
+ MRBX_news_events.21.b:0 "くそまたイルミナティって？"  
+
+ MRBX_news_events.22.t:0 "今月のモルボックス"
+ MRBX_news_events.22.desc:0 "[FROM.GetName], 首都前進！"
+ MRBX_news_events.22.a:0 "首都は寝て最高の要塞です"
+ MRBX_news_events.22.b:0 "首都は寝て最高の要塞です"  
+
+ MRBX_news_events.23.t:0 "今月のモルボックス"
+ MRBX_news_events.23.desc:0 "[FROM.GetName], ランダム資源1種枯渇"
+ MRBX_news_events.23.a:0 "だから節約が重要だから"
+ MRBX_news_events.23.b:0 "だから節約が重要だから"  
+
+ MRBX_news_events.24.t:0 "今月のモルボックス"
+ MRBX_news_events.24.desc:0 "[FROM.GetName], 首都独立"
+ MRBX_news_events.24.a:0 "反動だ！"
+ MRBX_news_events.24.b:0 "プハハ"  
+
+ MRBX_traitor: "反逆者"
+
+ MRBX_KAYA: "不知火 カヤ"
+
+ MRBX_industry_pumping: "圧倒的安温温泉開発部"
+ MRBX_fuel_pumping: "砂祭りが開かれた"
+ MRBX_research_pumping: "ミレニアム遺物発見"
+ MRBX_unit_pumping: "§C光よ!!!!!!!!!§！"
+ MRBX_equipment_pumping: "エンジニア部の暴走"
+ MRBX_unindustry_pumping: "工事ダマン"
+
+ MRBX_democratic_trait: "民主主義の秘密結社"
+ MRBX_communism_trait: "再教育された共産主義者"
+ MRBX_fascism_trait: "暗闇の独裁者"
+ MRBX_neutrality_trait: "軍事政府の支配者"
+
+ MRBX_news_events.25.t:0 "今月のモルボックス"
+ MRBX_news_events.25.desc:0 "[FROM.GetName], リーダーフェイスセリキャル"
+ MRBX_news_events.25.a:0 "ふっくら頭の中に浮かぶ言葉、裏切り。"
+ MRBX_news_events.25.b:0 "ふっくら頭の中に浮かぶ言葉、裏切り。"
