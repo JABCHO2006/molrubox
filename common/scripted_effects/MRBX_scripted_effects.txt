@@ -435,6 +435,7 @@ MRBX_random_box_open = {
 					any_neighbor_state = {
 						NOT = { is_controlled_by = ROOT }
 					}
+					is_capital = no
 				}
 				ROOT = {
 					set_capital = {

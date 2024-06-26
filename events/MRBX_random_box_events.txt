@@ -652,7 +652,7 @@ news_event = {
     id = MRBX_news_events.19
     title = MRBX_news_events.19.t
     desc = MRBX_news_events.19.desc
-    picture = GFX_blue_event_018
+    picture = GFX_news_event_nuke
 
     is_triggered_only = yes
     major = yes
@@ -760,7 +760,7 @@ news_event = {
     id = MRBX_news_events.22
     title = MRBX_news_events.22.t
     desc = MRBX_news_events.22.desc
-    picture = GFX_blue_event_021
+    picture = GFX_blue_event_022
 
     is_triggered_only = yes
     major = yes
