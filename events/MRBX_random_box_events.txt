@@ -756,3 +756,39 @@ news_event = {
         }
     }
 }
+news_event = {
+    id = MRBX_news_events.22
+    title = MRBX_news_events.22.t
+    desc = MRBX_news_events.22.desc
+    picture = GFX_blue_event_021
+
+    is_triggered_only = yes
+    major = yes
+
+    option = {
+        name = MRBX_news_events.22.a
+        trigger = {
+            has_country_flag = MRBX_lucky_country
+        }
+
+        hidden_effect = {
+            clr_country_flag = MRBX_lucky_country
+
+		    random_country = {
+			    limit = {
+				    is_ai = no
+			    }
+			    set_country_flag = MRBX_lucky_country
+		    }   
+        }
+    }
+
+    option = {
+        name = MRBX_news_events.22.b
+        trigger = {
+            NOT = {
+                has_country_flag = MRBX_lucky_country
+            }
+        }
+    }
+}

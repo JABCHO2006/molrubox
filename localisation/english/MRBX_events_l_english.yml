@@ -104,6 +104,11 @@
  MRBX_news_events.21.a:0 "젠장 또 일루미나티야"
  MRBX_news_events.21.b:0 "젠장 또 일루미나티야"  
 
+ MRBX_news_events.22.t:0 "이 달의 몰?루 박스 결과"
+ MRBX_news_events.22.desc:0 "[FROM.GetName], 수도 전진!"
+ MRBX_news_events.22.a:0 "수도는 자고로 최고의 요새다"
+ MRBX_news_events.22.b:0 "수도는 자고로 최고의 요새다"  
+
  MRBX_traitor: "반역자"
 
  MRBX_KAYA: "시라누이 카야"

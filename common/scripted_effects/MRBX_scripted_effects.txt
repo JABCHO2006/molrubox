@@ -428,5 +428,22 @@ MRBX_random_box_open = {
 			}
 			news_event = MRBX_news_events.21
 		}	
+		5 = { #수도는 자고로 최고의 요새다 #SKSKIe
+			random_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+					any_neighbor_state = {
+						NOT = { is_controlled_by = ROOT }
+					}
+				}
+				ROOT = {
+					set_capital = {
+						state = PREV
+						remember_old_capital = no
+					}
+				}
+			}
+			news_event = MRBX_news_events.22
+		}	
 	}
 }
