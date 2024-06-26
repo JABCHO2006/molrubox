@@ -275,16 +275,21 @@ MRBX_random_box_open = {
 				NOT = {
 					any_character = {
 						is_advisor = no
-						is_country_leader = no
+						can_be_country_leader = no
 						is_unit_leader = no
 					}
 				}
 				factor = 0
 			}
+			modifier = {
+				has_country_flag = KAYA_traitor_flag
+				factor = 0
+			}
+			set_country_flag = KAYA_traitor_flag
 			random_character = {
 				limit = {
 					is_advisor = no
-					is_country_leader = no
+					can_be_country_leader = no
 					is_unit_leader = no
 				}
 				set_character_name = MRBX_KAYA
